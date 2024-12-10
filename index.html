@@ -29,128 +29,154 @@
                     class="fa fa-bars"></i></a>
             <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
             <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">QUEM SOU EU?</a>
-            <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
+            <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MEUS CURSOS</a>
             <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTATO</a>
-            <div class="w3-dropdown-hover w3-hide-small">
-                <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                </div>
+        </div>
+        <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i
+                class="fa fa-search"></i></a>
+    </div>
+    </div>
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+        <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+        <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+    </div>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+        <!-- Automatic Slideshow Images -->
+        <div class="mySlides w3-display-container w3-center">
+            <img src="/img/musica.png" style="width:100%">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                <h3>Top Musicas</h3>
+                <p><b>Veja meu Top 10 músicas de 2024!</b></p>
             </div>
-            <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i
-                    class="fa fa-search"></i></a>
         </div>
-    </div>
-
-
-    <!-- Automação do carrosel-->
-    <div class="mySlides w3-display-container w3-center">
-        <img src="/img/musica.png" style="width:100%">
-        <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-            <h3>Top Musicas</h3>
-            <p><b>Veja meu Top 10 músicas de 2024!</b></p>
+        <div class="mySlides w3-display-container w3-center">
+            <img src="/img/preto.png.jpg" style="width:100%">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                <h3>Novembro Preto</h3>
+                <p><b>A importância da conscientização sobre o racismo!</b></p>
+            </div>
         </div>
-    </div>
-    <div class="mySlides w3-display-container w3-center">
-        <img src="/img/preto.png.jpg" style="width:100%">
-        <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-            <h3>Novembro Preto</h3>
-            <p><b>A importância da conscientização sobre o racismo!</b></p>
-        </div>
-    </div>
-    <div class="mySlides w3-display-container w3-center">
-        <img src="/img/parmegiana.png" style="width:100%">
-        <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-            <h3>Receitas & Cia</h3>
-            <p><b>Faça postagens de suas reiceitas em meu site!</b></p>
-        </div>
-    </div>
-
-    <!--Apresentação-->
-    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-        <h2 class="w3-wide">QUEM SOU EU?</h2>
-        <img src="/img/eu.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:50%">
-        <p>Oi, eu sou Miguel, estou interessado em inovar na tecnologia, atualmente estou aprendendo Desenvolvimento de
-            Sistemas no Senai, contato pelo instagram: @og.miguels. Curiosidades: Sou músico...</p>
-
-
-
-        <!-- Meus Repositorios -->
-        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="tour">
-            <h2 class="w3-wide">Meus Repositórios</h2>
-
-                <div class="w3-third">
-                    Projeto Novembro
-                    Preto<br><br><a href="https://guelitoo.github.io/novembro-preto/" target="_blank">
-                        <img src="/img/preto.png.jpg" class="w3-round w3-margin-bottom" alt="Random Name"
-                            style="width:80%"></a>
-                </div>
-
-                <div class="w3-third">
-                    Receitas &
-                    Cias<br><br><a href="https://guelitoo.github.io/formulario-receita" target="_blank">
-                        <img src="/img/parmegiana.png" class="w3-round w3-margin-bottom" alt="Random Name"
-                            style="width:80%"></a>
-                </div>
-
-                <div class="w3-third">
-                    Top 10 Músicas 2024<br><br><a
-                        href="https://guelitoo.github.io/videos-incorporados/videos-incorporados/" target="_blank">
-                        <img src="img/musica.png" class="w3-round w3-margin-bottom" alt="Random Name"
-                            style="width:80%"></a>
-                </div>
-
-                <p class="w3-opacity"><i>By</i><a href="https://github.com/guelitoo" target="_blank"><i> @guelitoo</i></p>
-                    <div class="w3-row w3-padding-32">
+        <div class="mySlides w3-display-container w3-center">
+            <img src="/img/parmegiana.png" style="width:100%">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                <h3>Receitas & Cia</h3>
+                <p><b>Faça postagens de suas reiceitas em meu site!</b></p>
             </div>
         </div>
 
-        <!-- Ticket Modal -->
-        <div id="ticketModal" class="w3-modal">
-            <div class="w3-modal-content w3-animate-top w3-card-4">
-                <header class="w3-container w3-teal w3-center w3-padding-32">
-                    <span onclick="document.getElementById('ticketModal').style.display='none'"
-                        class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
-                    <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
-                </header>
-                <div class="w3-container">
-                    <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
-                    <input class="w3-input w3-border" type="text" placeholder="How many?">
-                    <p><label><i class="fa fa-user"></i> Send To</label></p>
-                    <input class="w3-input w3-border" type="text" placeholder="Enter email">
-                    <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i
-                            class="fa fa-check"></i></button>
-                    <button class="w3-button w3-red w3-section"
-                        onclick="document.getElementById('ticketModal').style.display='none'">Close <i
-                            class="fa fa-remove"></i></button>
-                    <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+        <!-- The Band Section -->
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+            <h2 class="w3-wide">QUEM SOU EU?</h2>
+            <img src="/img/eu.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:40%">
+            <p class="w3-justify">Oi, eu sou Miguel, estou interessado em inovar na tecnologia, atualmente estou
+                aprendendo Desenvolvimento de Sistemas no Senai, contato pelo instagram:
+                <a href="https://www.instagram.com/og.miguels/" target="_blank">
+                    @og.miguels</a> Curiosidades: Sou músico...
+            </p>
+
+
+            <div class="w3-third">
+                Projeto Novembro Preto<br><br>
+                <a href="https://guelitoo.github.io/novembro-preto/" target="_blank">
+                    <img src="/img/preto.png.jpg" class="w3-round w3-margin-bottom" alt="Random Name"
+                        style="width:80%"></a>
+            </div>
+
+            <div class="w3-third">
+                Top 10 Músicas 2024<br><br>
+                <a href="https://guelitoo.github.io/videos-incorporados/videos-incorporados/" target="_blank">
+                    <img src="/img/musica.png" class="w3-round w3-margin-bottom" alt="Random Name"
+                        style="width:80%"></a>
+            </div>
+
+            <div class="w3-third">
+                Receitas & Cias<br><br>
+                <a href="https://guelitoo.github.io/formulario-receita" target="_blank">
+                    <img src="/img/parmegiana.png" class="w3-round w3-margin-bottom" alt="Random Name"
+                        style="width:80%"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Tour Section -->
+    <div class="w3-black" id="tour">
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+            <h2 class="w3-wide w3-center">Meus Cursos</h2>
+
+
+
+
+            <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+                <div class="w3-third w3-margin-bottom">
+                    <div class="w3-container w3-white">
+                        <p><b>Curso de Contrabaixo</b></p>
+                        <p class="w3-opacity"></p>
+                        <p>Aprenda contrabaixo do zero!</p>
+                        <button class="w3-button w3-black w3-margin-bottom"
+                            onclick="document.getElementById('ticketModal').style.display='block'">Compre</button>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- The Contact Section -->
-        <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-            <h2 class="w3-wide w3-center">CONTATO</h2>
-            <div class="w3-row w3-padding-32">
-                <div class="w3-col m6 w3-large w3-margin-bottom">
-                    <i class="fa fa-map-marker" style="width:30px"></i> Sorocaba, SP<br>
-                    <i class="fa fa-phone" style="width:30px"></i> Telefone: +55 (11) 97234-7456<br>
-                    <i class="fa fa-envelope" style="width:30px"> </i> Email: m36230989@mail.com<br>
-                </div>
-                <div class="w3-col m6">
-                    <form action="/action_page.php" target="_blank">
-                        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-                            <div class="w3-half">
-                                <input class="w3-input w3-border" type="text" placeholder="Nome" required name="Nome">
-                            </div>
-                            <div class="w3-half">
-                                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-                            </div>
+    <!-- Cursos -->
+    <div id="ticketModal" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+            <header class="w3-container w3-teal w3-center w3-padding-32">
+                <span onclick="document.getElementById('ticketModal').style.display='none'"
+                    class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+                <h2 class="w3-wide"></i>Curso de Contrabaixo</h2>
+            </header>
+            <div class="w3-container">
+                <p><label><i class="fa fa-user"></i>Email</label></p>
+                <input class="w3-input w3-border" type="text" placeholder="Enter email">
+                <a href="https://pay.kiwify.com.br/zrYyDJ2" target="_blank">
+                    <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right" type="submit">Acesse<i
+                            class="fa fa-check"></i></button></a>
+                <button class="w3-button w3-red w3-section"
+                    onclick="document.getElementById('ticketModal').style.display='none'">Close <i
+                        class="fa fa-remove"></i></button>
+                <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Contact Section -->
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+        <h2 class="w3-wide w3-center">CONTATO</h2>
+        <div class="w3-row w3-padding-32">
+            <div class="w3-col m6 w3-large w3-margin-bottom">
+                <i class="fa fa-map-marker" style="width:30px"></i> Sorocaba, SP<br>
+                <i class="fa fa-phone" style="width:30px"></i> Telefone: +55 11 95637-9308<br>
+                <i class="fa fa-envelope" style="width:30px"> </i> Email: m36230989@mail.com<br>
+            </div>
+            <div class="w3-col m6">
+                <form action="/action_page.php" target="_blank">
+                    <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
                         </div>
-                        <input class="w3-input w3-border" type="text" placeholder="Mensagem" required name="Message">
-                        <button class="w3-button w3-black w3-section w3-right" type="submit">ENVIAR</button>
-                    </form>
-                </div>
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                        </div>
+                    </div>
+                    <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                    <button class="w3-button w3-black w3-section w3-right" type="submit">ENVIAR</button>
+                </form>
             </div>
         </div>
+    </div>
+
+    <!-- End Page Content -->
+    </div>
 
         <!-- Final da página -->
     </div>
@@ -159,10 +185,11 @@
     <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
 
         <a href="https://www.instagram.com/og.miguels/profilecard" target="_blank">
-        <i class="fa fa-instagram w3-hover-opacity"></i></a>
-        
-        <a href="https://www.linkedin.com/in/miguel-silva-santos-b3b5832b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
-        <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+            <i class="fa fa-instagram w3-hover-opacity"></i></a>
+
+        <a href="https://www.linkedin.com/in/miguel-silva-santos-b3b5832b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+            target="_blank">
+            <i class="fa fa-linkedin w3-hover-opacity"></i></a>
 
 
         </p>
